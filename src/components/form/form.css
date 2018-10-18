@@ -82,7 +82,7 @@ body {
     font-weight: bold;
     text-decoration-style: none;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .linkDiv div {
@@ -133,7 +133,7 @@ body {
 }
 
 .historyLinkDiv {
-    width: 100px;
+    width: 125px;
     height: 50px;
     line-height: 42px;
     padding: 10px;
