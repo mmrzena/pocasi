@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/pocasi/static/js/runtime~main.427e34bb.js"
   },
   {
-    "revision": "a400cf9659d0a9cd3484",
-    "url": "/pocasi/static/js/main.a400cf96.chunk.js"
+    "revision": "a2c6da7133fcd0570fc7",
+    "url": "/pocasi/static/js/main.a2c6da71.chunk.js"
   },
   {
     "revision": "5fb649a034f9ba5f6b5c",
     "url": "/pocasi/static/js/1.5fb649a0.chunk.js"
   },
   {
-    "revision": "a400cf9659d0a9cd3484",
-    "url": "/pocasi/static/css/main.07e32843.chunk.css"
+    "revision": "a2c6da7133fcd0570fc7",
+    "url": "/pocasi/static/css/main.9dc9161d.chunk.css"
   },
   {
-    "revision": "17749f7c8923af945e4dd7aeb3c2822a",
+    "revision": "d9230173623fb72f68fcade114ef753f",
     "url": "/pocasi/index.html"
   }
 ];
