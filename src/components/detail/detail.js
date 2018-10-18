@@ -149,7 +149,7 @@ class Detail extends Component {
                    
                     <h1 className='cityName'>
                          {city}
-                         <img className={icon} src={'http://openweathermap.org/img/w/' + data.weather[0].icon + '.png'} />
+                         <img className={icon} src={'https://openweathermap.org/img/w/' + data.weather[0].icon + '.png'} />
                     </h1>
                     <Datum>{today}</Datum>
                     {/* display casu se zobrazuje pouze pri aktualnim dni*/}

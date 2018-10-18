@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Form from './components/form/form';
 import Detail from './components/detail/detail';
 
-const API = 'http://api.openweathermap.org/data/2.5/';
+const API = 'https://api.openweathermap.org/data/2.5/';
 const weather = 'weather?q=';
 const forecast = 'forecast?q=';
 const APIKEY = 'appid=f714be673656be98ef85ddbba2ec76c3';
@@ -39,7 +39,14 @@ class App extends Component {
                 this.setState({ data, error: false });
                 //ulozeni pouze jmena mesta do localstorage
                 //pote pri kliknuti na history link je znovu volan api call pro fetch aktualnich dat
-                localStorage.setItem(data.name, data.name)
+                  let storage = JSON.parse(localStorage.getItem('pocasiapp'));
+                  if(storage !== null) {
+                     storage.push(data.name);
+                  } else {
+                    storage = [];
+                    storage.push(data.name);
+                  }
+                  localStorage.setItem('pocasiapp', JSON.stringify(storage));
             })
             .catch((error) => {
                 this.setState({error: true});
@@ -54,7 +61,7 @@ class App extends Component {
   render() {
    
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path='/' component={() => 
                             <Form 

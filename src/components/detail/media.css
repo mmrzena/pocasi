@@ -1,6 +1,6 @@
 @media only screen and (max-width: 600px) {
     .tempDiv, .tempMinDiv, .tempMaxDiv, .windSpeedDiv, .windDirDiv {
-        height: 90px;
+        height: 120px;
     }
 
     .windWrapper {

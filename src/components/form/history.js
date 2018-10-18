@@ -13,12 +13,12 @@ class History extends Component {
 
     //získání dat z localStorage a přesuní jich do Array v state
     componentDidMount() {
-        let dataNew = []
-        for ( let i = 0; i < localStorage.length; ++i ) {
-            let data = localStorage.getItem( localStorage.key( i ) );
-            dataNew.push(data); 
-          }
-          this.setState({data: dataNew});
+        let storage = JSON.parse(localStorage.getItem('pocasiapp'))
+        if(storage !== null) {
+            let newStorage = storage.filter((value, index, self) => self.indexOf(value) === index);
+            this.setState({data: newStorage});
+        }
+       
     }
 
 
