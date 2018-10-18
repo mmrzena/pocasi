@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/pocasi/static/css/main.07e32843.chunk.css"
   },
   {
-    "revision": "d1834b3e4ff84dc302486a360d493f40",
+    "revision": "cb294e9291054637512e82cb422567d5",
     "url": "/pocasi/index.html"
   }
 ];
