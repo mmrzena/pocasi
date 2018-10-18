@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+    .tempDiv, .tempMinDiv, .tempMaxDiv, .windSpeedDiv, .windDirDiv {
+        height: 90px;
+    }
+
+    .windWrapper {
+        margin-top: -20px;
+        padding-top: 0;
+    }
+
+    .cityName {
+        font-size: 55px;        
+    }
+
+    .cityWrapper h3 {
+        font-size: 16px;    
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .tempWrapper, .windWrapper {
+        padding-right: 20px;
+    }
+}

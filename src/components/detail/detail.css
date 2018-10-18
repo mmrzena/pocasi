@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.loading {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.detailWrapper {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(255, 255, 177);;
+    font-family: 'Open Sans';
+}
+
+
+
+.cityWrapper {
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+}
+
+.cityWrapper h3 {
+    text-align: center;
+    margin: 0;
+}
+
+.cityName {
+    margin: 0;
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    line-height: 130px; 
+    font-size: 70px;
+    background-color: #fff;
+   
+}
+
+.sunny   {
+    animation: cityNameRotate 10s infinite linear;
+}
+
+@keyframes cityNameRotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+}
+
+
+.showForecast {
+    width: 60px;
+    height: 60px;
+    background-color: #ffffff;
+    border: 2px solid rgb(190, 186, 186);
+    color: rgb(88, 87, 87);
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 10px;
+    cursor: pointer;
+    font-family: 'Open Sans';
+    margin-top: 10px;
+}
+
+.showForecast:active {
+    transform: scale(0.9);
+}
+
+.tempWrapper, .windWrapper {
+    width: 100%;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 110px;
+    box-sizing: border-box;
+    grid-column: 2 / -1;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.windWrapper {
+    margin-top: -90px;
+}
+
+.tempWrapper > span {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.tempDiv, .tempMinDiv, .tempMaxDiv, .windSpeedDiv, .windDirDiv {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 190px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid rgb(190, 186, 186);
+    margin: 5px;
+    background-color: white;
+    font-size: 20px;
+    /* box-shadow: 1px 1px rgb(102, 102, 102); */
+}
+
+.tempDiv span:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.tempMinDiv span:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.tempMaxDiv span:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.windDirDiv span:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.windSpeedDiv span:first-child {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+.goBack {
+    width: 30px;
+    height: 30px;
+    box-shadow: none;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.goBack:hover {
+    background-color: black;
+    color: white;
+}
+
+.goBack:active {
+    transform: scale(0.9);
+}
+
+
+
