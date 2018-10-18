@@ -1,7 +1,7 @@
 {
   "main.css": "/pocasi/static/css/main.07e32843.chunk.css",
-  "main.js": "/pocasi/static/js/main.a5dfb180.chunk.js",
-  "main.js.map": "/pocasi/static/js/main.a5dfb180.chunk.js.map",
+  "main.js": "/pocasi/static/js/main.5f912e7e.chunk.js",
+  "main.js.map": "/pocasi/static/js/main.5f912e7e.chunk.js.map",
   "static/js/1.5fb649a0.chunk.js": "/pocasi/static/js/1.5fb649a0.chunk.js",
   "static/js/1.5fb649a0.chunk.js.map": "/pocasi/static/js/1.5fb649a0.chunk.js.map",
   "runtime~main.js": "/pocasi/static/js/runtime~main.427e34bb.js",
@@ -9,6 +9,6 @@
   "static/media/form.css": "/pocasi/static/media/clouds1.9015724e.png",
   "static/css/main.07e32843.chunk.css.map": "/pocasi/static/css/main.07e32843.chunk.css.map",
   "index.html": "/pocasi/index.html",
-  "precache-manifest.e923ffab9f25240c8f11a7922b678cec.js": "/pocasi/precache-manifest.e923ffab9f25240c8f11a7922b678cec.js",
+  "precache-manifest.92cce1c5955abf41eac671e7895fa01a.js": "/pocasi/precache-manifest.92cce1c5955abf41eac671e7895fa01a.js",
   "service-worker.js": "/pocasi/service-worker.js"
 }
